@@ -1,0 +1,558 @@
+.carousel__item--modified {
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.index__h1--modified {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.h1__color--a {
+  color: #00ADAC;
+}
+
+.h1__color--b {
+  color: #00ADAC;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.616);
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  z-index: 1000;
+  text-shadow: 0px 0px 6px grey;
+}
+
+h3 {
+  text-shadow: 0px 0px 6px grey;
+}
+
+.nav-item {
+  text-shadow: 0px 0px 6px grey;
+}
+
+.mein__h2 {
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 0;
+  padding: 20px;
+  color: white;
+  text-shadow: 0px 0px 6px grey;
+}
+
+.container-fluid {
+  background: rgb(173, 64, 0);
+  background: radial-gradient(circle, rgb(173, 64, 0) 0%, rgb(97, 36, 0) 51%);
+}
+
+.call__h3--modified {
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.call__p--modified {
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.home__myr--modified {
+  margin-bottom: 20px;
+}
+
+.home__lotd--modified {
+  padding: 0;
+}
+
+.home__lotd--modified img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.n-left .a {
+  padding: 0;
+}
+
+.footer__block--modifier {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer__icons--modified {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.footer__icons--modified a {
+  text-decoration: none;
+  color: #AD4000;
+}
+
+.footer__p--modified {
+  color: white;
+}
+
+/*Heres begging menu styles*/
+.parallax {
+  background-image: url(img/fondomenu.jpg);
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__header--modified {
+  background: rgb(173, 64, 0);
+  background: linear-gradient(0deg, rgb(173, 64, 0) 0%, rgb(140, 52, 0) 18%, rgb(97, 36, 0) 35%);
+  text-align: center;
+  height: 300px;
+  padding-top: 120px;
+  text-shadow: 0px 0px 6px grey;
+}
+
+.info {
+  text-align: center;
+  background-color: #AD4000;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.pedido-container {
+  background-color: #AD4000;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.my-swal-background {
+  background-color: rgba(97, 36, 0, 0.9176470588);
+  color: white;
+}
+
+.main__h3--modifier {
+  text-align: center;
+  color: white;
+  background-color: #AD4000;
+  margin: 0;
+  padding: 10px;
+}
+
+.card {
+  background-color: rgba(97, 36, 0, 0.7803921569);
+  margin: 40px;
+  cursor: default;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-body {
+  height: auto;
+}
+
+.card:hover {
+  filter: brightness(70%);
+}
+
+.menu__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.producto {
+  justify-content: center;
+  align-items: center;
+}
+
+.id {
+  display: none;
+}
+
+#menuVegan {
+  padding-bottom: 40px;
+}
+
+.sep__menu {
+  background-color: rgba(173, 63, 0, 0.768627451);
+  cursor: default;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  max-height: 800px;
+}
+
+/*Heres begging reservation styles*/
+.main {
+  width: 100%;
+  height: 800px;
+  background-image: url(img/street-6099209_1280.jpg);
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.main__box--modifier {
+  background-color: rgba(97, 36, 0, 0.7803921569);
+  height: auto;
+  width: 50%;
+  border-radius: 10px;
+  margin: 5px;
+  border: 3px solid #AD4000;
+}
+
+.reserve__h3--modifier {
+  font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.main__form--modified {
+  padding: 20px;
+}
+
+.reserve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__reserve--modified {
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.171);
+  cursor: default;
+  border: 1px solid #AD4000;
+}
+
+.form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.171);
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.171);
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+/*here begging floatting bubble*/
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #AD4000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background-color: #b9a100;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
+.navbar-brand img {
+  width: 80px;
+  height: 100%;
+}
+
+.floating__button--ig {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #C13584;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-size: 24px;
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+.floating__button--ig:hover {
+  background-color: #e1306c;
+  text-decoration: none;
+}
+
+.floating__button--tw {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #1da1f2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-size: 24px;
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+.floating__button--tw:hover {
+  background-color: #009dff;
+  text-decoration: none;
+}
+
+.floating__button--fb {
+  position: fixed;
+  bottom: 180px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-size: 24px;
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+.floating__button--fb:hover {
+  background-color: #0051ff;
+  text-decoration: none;
+}
+
+/*heres begging Contact Us */
+.form__contact--modified {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  text-shadow: 0px 0px 6px black;
+  min-height: 600px;
+  border-bottom: 2px solid #AD4000;
+}
+
+.form__contact--modifiedr {
+  background-color: black;
+  border-right: 2px solid #AD4000;
+  border-bottom: 2px solid #AD4000;
+}
+
+.form__contact--modified input {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.form__contact--modified textarea {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.form__contact--modified label {
+  margin-bottom: 5px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.form__contact--modified button {
+  margin: 15px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.form__p--modifier {
+  display: inline-block;
+  width: 80%;
+}
+
+.form-control-r {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.452);
+  cursor: default;
+  border: 1px solid #AD4000;
+}
+
+/*heres begging How to Get There*/
+.map__text {
+  padding: 5px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.map {
+  filter: brightness(5%);
+  transition: all 1s;
+}
+
+.map:hover {
+  filter: none;
+}
+
+/*heres begging About Us*/
+.container__1--h2 {
+  height: 300px;
+  width: 100%;
+}
+
+.container__1--h2 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url(img/bifedechorzio.png);
+}
+
+.container__2 .n-left {
+  height: auto;
+  padding: 0;
+}
+
+.container__2 .n-right {
+  padding: 0px;
+}
+
+.cont__2--nleft {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont__2--nleft p {
+  width: 80%;
+  height: auto;
+  margin: 40px 0px 40px 0px;
+  font-size: 20px;
+  padding-top: 120px;
+  background-color: #AD4000;
+  padding: 40px;
+  cursor: none;
+  transition: all 2s;
+}
+
+.cont__2--nleft p:hover {
+  background-color: rgba(97, 36, 0, 0.7803921569);
+  text-shadow: 0px 0px 2px white;
+}
+
+.container__2--nright {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__2--nright img {
+  width: 80%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: solid 1px #AD4000;
+  margin: 40px 0px 40px 0px;
+  transition: all 1s;
+}
+
+.container__2--nright img:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(97, 36, 0, 0.7803921569);
+  color: white;
+}
+
+.btn:hover {
+  background-color: #AD4000;
+  color: white;
+  text-decoration: underline;
+}
+
+.active {
+  border-bottom: 1px solid white;
+}
+
+/*heres begging media querys*/
+@media only screen and (max-width: 780px) {
+  .main__box--modifier {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .col-md-4 {
+    order: 3;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .map {
+    filter: none;
+  }
+}/*# sourceMappingURL=style.css.map */

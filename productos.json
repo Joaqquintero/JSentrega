@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "tipo": "meat",
+        "plato": "Sirloin Steak",
+        "imagen": "bifedechorzio.png",
+        "descripcion": "Sirloin steak with mix of malbece peppers.",
+        "precio": "15.200"
+    },
+    {
+        "id": 1,
+        "tipo": "meat",
+        "plato": "Rib Eye",
+        "imagen": "rib eye.jpg",
+        "descripcion": "Rib eye with salts, peppers and garlic accompanied of fresh salad.",
+        "precio": "19.000"
+    },
+    {
+        "id": 2,
+        "tipo": "meat",
+        "plato": "Loin Fillet",
+        "imagen": "lomo.jpg",
+        "descripcion": "Loin fillet with bacon jam and baked zucchini accompanied by spanish potatoes.",
+        "precio": "15.900"
+    },
+    {
+        "id": 3,
+        "tipo": "fish",
+        "plato": "Salmon",
+        "imagen": "salmon-518032_1920.jpg",
+        "descripcion": "Grilled salmon with lemon sauce and fresh asparagus.",
+        "precio": "22.000"
+    },
+    {
+        "id": 4,
+        "tipo": "fish",
+        "plato": "Fried Hake",
+        "imagen": "merluza.jpg",
+        "descripcion": "Fried hake crispy, juicy, accompanied by lemon and fresh salad.",
+        "precio": "14.900"
+    },
+    {
+        "id": 5,
+        "tipo": "fish",
+        "plato": "Salmon Burguer",
+        "imagen": "sandwichsalmon.jpg",
+        "descripcion": "Salmon burger with avocado, yogurt sauce, lettuce and toasted bread.",
+        "precio": "16.000"
+    },
+    {
+        "id": 6,
+        "tipo": "vegan",
+        "plato": "Las Carmencitas Salad",
+        "imagen": "lcasalad.jpg",
+        "descripcion": "Fresh salad with cherry tomato, green and purple leaves, mushrooms and pategra cheese.",
+        "precio": "10.200"
+    },
+    {
+        "id": 7,
+        "tipo": "vegan",
+        "plato": "Caesar Salad",
+        "imagen": "ens cesar.jpg",
+        "descripcion": "Caesar salad with romaine lettuce, croutons, grilled chicken, creamy dressing and parmesan cheese.",
+        "precio": "9.600"
+    },
+    {
+        "id": 8,
+        "tipo": "vegan",
+        "plato": "Mix Salad",
+        "imagen": "mixta ensalad.jpg",
+        "descripcion": "Mixed salad with lettuce, tomato, onion, cucumber, carrot and fresh dressing.",
+        "precio": "9.600"
+    }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/lascarmencitas.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="keywords" content="comida a domicilio, restaurantes cerca de mi, restaurantes, restaurante mexicano, restaurantes cerca">
+    <meta name="description" content="Dive into a unique culinary experience with the menu at Las Carmencitas. Delicious flavors, artistic presentations, and a cozy atmosphere await you.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Menu - Las Carmencitas</title>
+</head>
+
+<body>
+    <!--The navbar beggings here-->
+    <nav id="" class="fixed-top navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="../index.html"><img src="../img/lascarmencitas.png" alt="Las Carmencitas logue"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Menu<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/reservation.html">Reservation</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        More 
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="../pages/htgt.html">How to Get There</a>
+                      <a class="dropdown-item" href="../pages/contactus.html">Contact Us</a>
+                      <a class="dropdown-item" href="../pages/aboutus.html">About Us</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--The navbar ends here-->
+    <!--The main begging here-->
+    <main>
+      
+        <div class="menu__header--modified text-white">
+        <h1 class="menu__h2--modifier">Restaurant Menu</h1>
+        <p class="menu__p--modifier">Las Carmencitas>Menu>Options</p>
+      </div>
+        
+
+
+
+        <div class="parallax">
+          <h2 class="main__h3--modifier absolut-top">how to realize your order?</h2>
+          <p class="info">To place your order, first add all the dishes you want with the <span class="btn">Add to order</span>. When you have completed your choice, scroll to the bottom of the page where you will find a summary of your order and where you can delete a dish if you wish. If you are happy with your order, you just have to touch the <span class="btn">Send order to kitchen</span> and gone!</p>
+        <h2 class="main__h3--modifier absolut-top">Meat</h2>
+        <div id="menuMeat" class="menu__container"></div>
+        <h2 class="main__h3--modifier absolut-top">Fish</h2>
+        <div id="menuFish" class="menu__container"></div>
+        <h2 class="main__h3--modifier absolut-top">Vegan</h2>
+        <div id="menuVegan" class="menu__container"></div>
+      </div>
+        
+<!-- Pedido -->
+<div id="pedido" class="pedido-container text-white text-center style="display: none;">
+  <h3>Your Order!</h3>
+  <ul id="listaPedido"></ul>
+  <h4>Total: $<span id="totalPedido">0</span></h4>
+  <button id="enviarPedido" class="btn ">Send Order to Kitchen</button>
+</div>
+    </main>
+    <!--The main ends here-->
+
+    <!--The footer begging here-->
+    <footer class="footer text-center footer__block--modifier">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-3 footer__icons--modified">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <div class="col-12 footer-text">
+              <p class="footer__p--modified">&copy; 2024 Las Carmencitas. All Rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--The footer ends here-->
+      <!-- Floatting bubble begging here -->
+          <button class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+          <i class="fa fa-chevron-up"></i>
+          </button>
+      <!-- Floatting bubble ends here-->
+       
+    <script src="../Main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<link href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
