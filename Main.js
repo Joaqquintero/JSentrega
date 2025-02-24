@@ -1,7 +1,7 @@
 // Funcion para pintar los productos
 async function pintarProductos() {
     try {
-        const response = await fetch(`/productos.json`);
+        const response = await fetch(`../productos.json`);
         const productos = await response.json();
         // Capturar elementos del DOM
         const menuMeat = document.getElementById("menuMeat");
@@ -121,8 +121,7 @@ document.getElementById("formRes").addEventListener("submit", function (e) {
     const nombreReserva = document.getElementById("nombreRes").value;
     const comensalesReserva = document.getElementById("comensalesRes").value;
     const horarioReserva = document.getElementById("horarioRes").value;
-    const telefonoReserva = document.getElementById("telefonoRes").value;
-
+    const telefonoReserva = document.getElementById("telefonoRes").valu
     const datosForm = {
         nombre: nombreReserva,
         comensales:comensalesReserva,

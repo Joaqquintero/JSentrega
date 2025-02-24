@@ -1,0 +1,23 @@
+{
+  "name": "jsentrega",
+  "version": "1.0.0",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaqquintero/JSentrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joaqquintero/JSentrega/issues"
+  },
+  "homepage": "https://github.com/Joaqquintero/JSentrega#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.3"
+  }
+}
